@@ -1,4 +1,4 @@
-package org.d3ifcool.ima06;
+package org.d3ifcool.assessment01;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -6,17 +6,14 @@ import org.junit.jupiter.api.Test;
 
 import java.io.*;
 
-public class TestJurnal03 {
+public class TestSoal03 {
 
     private static final String[] INPUT = {
-        "1",
-	"123",
-	"145",
-	"578"
+        "123\n456\n789",
+	    "200\n501\n996"
     };
     private static final String[] OUTPUT = {
-        "YA","BUKAN",
-	"YA","BUKAN"
+        "15","8"
     };
 
     @Test
@@ -29,7 +26,7 @@ public class TestJurnal03 {
             ByteArrayOutputStream bos = new ByteArrayOutputStream();
             System.setOut(new PrintStream(bos));
 
-            Jurnal03.main(null);
+            Soal03.main(null);
 
             assertEquals(OUTPUT[i] + "\n", bos.toString());
         }

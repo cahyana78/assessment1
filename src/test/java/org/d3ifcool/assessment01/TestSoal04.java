@@ -1,4 +1,4 @@
-package org.d3ifcool.ima06;
+package org.d3ifcool.assessment01;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,15 +9,21 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestTP03 {
+public class TestSoal04 {
 
     private static final String[] INPUT = {
-            "4 1 5 7 7 9 9 3 6 1 0",
-			"3 5 6 3 8 6 9 5 6 1 9 1 1 4 9 3 2 9 4 3 0"
+            "51",
+			"22",
+			"16",
+			"10",
+			"6"
     };
     private static final String[] OUTPUT = {
-            "52",
-			"97"
+            "K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 8 penumpang\nK1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 8 penumpang\nK1 berangkat dengan 3 penumpang\nTrip K1 adalah 3\nTrip K2 adalah 2\nTrip K3 adalah 2\n\nTotal trip adalah 7\n",
+			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 6 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 1\n\nTotal trip adalah 3\n",
+			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 0\n\nTotal trip adalah 2\n",
+			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 2 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 0\n\nTotal trip adalah 2\n",
+			"K1 berangkat dengan 6 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 0\nTrip K3 adalah 0\n\nTotal trip adalah 1\n"
     };
 
     @Test
@@ -30,7 +36,7 @@ public class TestTP03 {
             ByteArrayOutputStream bos = new ByteArrayOutputStream();
             System.setOut(new PrintStream(bos));
 
-            TP03.main(null);
+            Soal04.main(null);
 
             assertEquals(OUTPUT[i] + "\n", bos.toString());
         }
