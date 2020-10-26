@@ -19,11 +19,11 @@ public class TestSoal04 {
 			"6"
     };
     private static final String[] OUTPUT = {
-            "K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 8 penumpang\nK1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 8 penumpang\nK1 berangkat dengan 3 penumpang\nTrip K1 adalah 3\nTrip K2 adalah 2\nTrip K3 adalah 2\n\nTotal trip adalah 7\n",
-			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 6 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 1\n\nTotal trip adalah 3\n",
-			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 0\n\nTotal trip adalah 2\n",
-			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 2 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 0\n\nTotal trip adalah 2\n",
-			"K1 berangkat dengan 6 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 0\nTrip K3 adalah 0\n\nTotal trip adalah 1\n"
+            "K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 8 penumpang\nK1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 8 penumpang\nK1 berangkat dengan 3 penumpang\n\nTrip K1 adalah 3\nTrip K2 adalah 2\nTrip K3 adalah 2\n\nTotal trip adalah 7",
+			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\nK3 berangkat dengan 6 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 1\n\nTotal trip adalah 3",
+			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 8 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 0\n\nTotal trip adalah 2",
+			"K1 berangkat dengan 8 penumpang\nK2 berangkat dengan 2 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 1\nTrip K3 adalah 0\n\nTotal trip adalah 2",
+			"K1 berangkat dengan 6 penumpang\n\nTrip K1 adalah 1\nTrip K2 adalah 0\nTrip K3 adalah 0\n\nTotal trip adalah 1"
     };
 
     @Test
