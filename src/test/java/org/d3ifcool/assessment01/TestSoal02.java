@@ -1,6 +1,7 @@
 package org.d3ifcool.assessment01;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
@@ -19,7 +20,7 @@ public class TestSoal02 {
 		String[] var = bos.toString().split(" ");
 
         for (int i = 0; i < 3; i++) {
-            int bil = ParseInt(var[i]); 
+            int bil = Integer.parseInt(var[i]); 
 
             Soal02.main(null);
 
@@ -27,6 +28,6 @@ public class TestSoal02 {
         }
 
         System.setOut(originalOut);
-        System.setIn(originalIn);
+  
     }
 }
