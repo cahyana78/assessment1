@@ -36,7 +36,7 @@ public class TestSoal01 {
 
             Soal01.main(null);
 
-            assertEquals(OUTPUT[i] + "\n", bos.toString());
+            assertEquals(OUTPUT[i], bos.toString());
         }
 
         System.setOut(originalOut);
