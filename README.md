@@ -1,14 +1,17 @@
-# Modul 06
+# Assessment 01
 
-Isilah nama dan NIM terlebih dahulu.
+Isilah Nama, NIM, dan Link Drive terlebih dahulu.
 
-Nama: 
+Nama : 
 
 NIM : 
 
-## PASTIKAN!!!
+Link Drive :
 
-1. Jawaban TP dan Jurnal dikerjakan pada file TP dan Jurnal yang berada pada folder src>main>java>org>d3ifcool>ima05
-2. Jawaban TP dan Jurnal sudah di-compile dan run **pada** folder yang sama (src>main>java>org>d3ifcool>ima05) di komputer Anda. ***Jangan*** melakukan compile dan run **di luar folder** tersebut
-3. Tidak ada sintaks error pada jawaban yang Anda push. Jika sesudah melakukan compile dan run sesuai aturan no 2 dan 3, seharusnya tidak ada sintaks error yang terlewat.
-4. Format input dan output sudah **sesuai** dengan apa yang diminta oleh soal
+## Perhatian
+
+1. Batas maksimum push jawaban assessment adalah **20X**. Lewat dari batas tersebut akan mendapat pengurangan nilai 5 poin yang diakumulasikan per-push
+2. Lakukan compile dan run pada jawaban assessment Anda sebelum di-push untuk menghindari kesalahan sintaks
+3. Silahkan push jawaban sedikit demi sedikit untuk menghindari jawaban terlambat di-push
+4. Jawaban yang dinilai **hanya** yang di-push sebelum batas waktu habis
+5. Keterlambatan dengan alasan gangguan koneksi, mati lampu, mati laptop, dan alasan sejenis lainnya tidak akan diterima jika upload jawaban dilakukan baru pada setengah jam sebelum waktu pengumpulan selesai
