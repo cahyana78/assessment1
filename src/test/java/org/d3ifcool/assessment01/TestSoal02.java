@@ -21,10 +21,11 @@ public class TestSoal02 {
 
         for (int i = 0; i < 3; i++) {
             int bil = Integer.parseInt(var[i]); 
+			bil = bil%4;
 
             Soal02.main(null);
 
-            assertTrue(bil%4 == 0);
+            assertEquals(0,bil);
         }
 
         System.setOut(originalOut);
