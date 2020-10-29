@@ -17,14 +17,12 @@ public class TestSoal02 {
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
         System.setOut(new PrintStream(bos));
 		
+		Soal02.main(null);
 		String[] var = bos.toString().split(" ");
 
         for (int i = 0; i < 3; i++) {
             int bil = Integer.parseInt(var[i]); 
 			bil = bil%4;
-
-            Soal02.main(null);
-
             assertEquals(0,bil);
         }
 
